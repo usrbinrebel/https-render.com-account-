@@ -59,5 +59,16 @@ def eight_ball():
     ]
     return f"🎱 {random.choice(answers)}"
 
+@app.route('/8ball/chaos')
+def eight_ball_chaos():
+    chaotic_answers = [
+        "The simulation is glitching... try again later.",
+        "All signs point to cosmic spaghetti.",
+        "42, but only on Tuesdays.",
+        "Your guess is as good as mine.",
+        "Proceed with extreme caution!"
+    ]
+    return f"🎱 {random.choice(chaotic_answers)}"
+
 if __name__ == '__main__':
     app.run()

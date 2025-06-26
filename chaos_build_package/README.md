@@ -34,6 +34,19 @@ curl https://your-app.onrender.com/8ball
 🎱 Error 418: Teapot detected.
 ```
 
+### 3. **Chaos Mode** (`/8ball/chaos` endpoint)
+Even less reliable wisdom for the brave.
+
+**Sample query:**
+```bash
+curl https://your-app.onrender.com/8ball/chaos
+```
+
+**Sample response:**
+```
+🎱 The simulation is glitching... try again later.
+```
+
 ---
 
 ## 🚨 TOASTER TROUBLESHOOTING
